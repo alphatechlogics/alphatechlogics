@@ -24,7 +24,7 @@ Table Of Contents:
 Colors:
 - Backgrounds, navbar - black #24262a
 - Backgrounds - light gray #f7f9fb
-- Buttons, icons - blue #0b36a8
+- Buttons, icons - blue #960ba8
 - Headings text - black #24262a
 - Body text - dark gray #4d5055
 ******************************************/
@@ -89,11 +89,11 @@ body {
 }
 
 .nav-links a:hover {
-  color: #2d3748;
+  color: #960ba8;
 }
 
 .nav-cta {
-  background: #2d3748;
+  background: #960ba8;
   color: white !important;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -102,7 +102,7 @@ body {
 }
 
 .nav-cta:hover {
-  background: #1a202c;
+  background: #960ba8;
   transform: translateY(-1px);
 }
 
@@ -131,8 +131,8 @@ body {
 
 .header-badge {
   display: inline-block;
-  background: rgba(59, 130, 246, 0.1);
-  color: #3b82f6;
+  background: rgba(255, 255, 255, 0.822);
+  color: #960ba8;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.875rem;
@@ -178,7 +178,7 @@ body {
 }
 
 .btn-primary {
-  background: #2d3748;
+  background: #960ba8;
   color: white;
 }
 
@@ -438,7 +438,7 @@ body {
 .split {
   display: flex;
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #af66ea 0%, #8b24bb 100%);
 }
 
 .area-1 {
@@ -534,7 +534,7 @@ body {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #7a32a3, #582986);
 }
 
 .stat-card:hover {
@@ -545,7 +545,7 @@ body {
 .stat-number {
   font-size: 3rem;
   font-weight: 900;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #960ba8, #960ba8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -632,7 +632,7 @@ body {
   margin-top: 60px;
   text-align: center;
   padding: 40px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #960ba8, #960ba8);
   border-radius: 20px;
   color: white;
 }
@@ -941,8 +941,8 @@ a:hover {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #0b36a8;
-  background-color: #0b36a8;
+  border: 1px solid #960ba8;
+  background-color: #960ba8;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -953,15 +953,15 @@ a:hover {
 
 .btn-solid-reg:hover {
   background-color: transparent;
-  color: #0b36a8; /* needs to stay here because of the color property of a tag */
+  color: #960ba8; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #0b36a8;
-  background-color: #0b36a8;
+  border: 1px solid #960ba8;
+  background-color: #960ba8;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -972,7 +972,7 @@ a:hover {
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #0b36a8; /* needs to stay here because of the color property of a tag */
+  color: #960ba8; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -1138,9 +1138,9 @@ input[type="checkbox"] {
   display: inline-block;
   width: 100%;
   height: 3.25rem;
-  border: 1px solid #0b36a8;
+  border: 1px solid #960ba8;
   border-radius: 32px;
-  background-color: #0b36a8;
+  background-color: #960ba8;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -1169,7 +1169,7 @@ input[type="checkbox"] {
 
 .basic-1 .time {
   margin-bottom: 0.5rem;
-  color: #0b36a8;
+  color: #960ba8;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -1207,7 +1207,7 @@ input[type="checkbox"] {
 .basic-2 .fas,
 .basic-2 .far {
   margin-bottom: 1.75rem;
-  color: #0b36a8;
+  color: #960ba8;
   font-size: 3.5rem;
 }
 
@@ -1476,12 +1476,12 @@ input[type="checkbox"] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-  color: #0b36a8;
+  color: #960ba8;
   transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-  color: #0b36a8;
+  color: #960ba8;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
@@ -1525,7 +1525,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-  background-color: #0b36a8;
+  background-color: #960ba8;
 }
 
 /***********************/
@@ -1566,7 +1566,7 @@ a:hover.back-to-top {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-  color: #0b36a8;
+  color: #960ba8;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
