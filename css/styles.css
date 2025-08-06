@@ -69,7 +69,7 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1a202c;
+  color: #960ba8;
   text-decoration: none;
   letter-spacing: -0.5px;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #960ba8;
+  color: #000000;
 }
 
 .nav-cta {
@@ -102,7 +102,7 @@ body {
 }
 
 .nav-cta:hover {
-  background: #960ba8;
+  background: #000000;
   transform: translateY(-1px);
 }
 
@@ -1151,8 +1151,8 @@ input[type="checkbox"] {
 
 .form-control-submit-button:hover {
   border: 1px solid #24262a;
-  background-color: transparent;
-  color: #24262a;
+  background-color: #24262a;
+  color: #ffffff;
 }
 
 /*****************/

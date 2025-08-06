@@ -4,30 +4,32 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check if device is mobile
   const isMobile = window.innerWidth <= 768;
 
-  const animateValue = (element, start, end, duration) => {
-    let startTime = null;
+  const animateValue = (element, start, end, duration, symbol = "") => {
+  let startTime = null;
 
-    const step = (timestamp) => {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / duration, 1);
-      const value = Math.floor(progress * (end - start) + start);
-      element.textContent = value + (end.toString().includes("+") ? "+" : "");
-      if (progress < 1) {
-        window.requestAnimationFrame(step);
-      }
-    };
-
-    window.requestAnimationFrame(step);
+  const step = (timestamp) => {
+    if (!startTime) startTime = timestamp;
+    const progress = Math.min((timestamp - startTime) / duration, 1);
+    const value = Math.floor(progress * (end - start) + start);
+    element.textContent = value + symbol;
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
   };
+
+  window.requestAnimationFrame(step);
+};
+
 
   const observer = new IntersectionObserver(
     (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           stats.forEach((stat) => {
-            const targetValue = parseInt(stat.textContent.replace(/\D/g, ""));
-            animateValue(stat, 0, targetValue, 2000);
-          });
+          const end = parseInt(stat.dataset.value);
+          const symbol = stat.dataset.symbol || "";
+          animateValue(stat, 0, end, 2000, symbol);
+        });
           observer.disconnect();
         }
       });
