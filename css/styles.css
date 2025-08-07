@@ -1218,6 +1218,26 @@ input[type="checkbox"] {
 /*******************/
 /*     Details     */
 /*******************/
+
+.image-container {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire container while maintaining aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.05); /* Nice zoom effect on hover */
+}
+
 .split .area-1 {
   height: 430px;
   background: linear-gradient(
