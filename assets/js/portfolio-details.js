@@ -7,7 +7,7 @@ const projectData = {
         date: 'March 2024',
         url: 'https://github.com/your-repo/news-summarizer',
         media: [
-            { type: 'image', src: 'assets/img/portfolio/news_summarizer.png', alt: 'News Summarizer Interface' },
+            { type: 'image', src: 'images/project/news_summarizer.png', alt: 'News Summarizer Interface' },
             { type: 'video', src: 'assets/videos/news_summarizer_demo.mp4', poster: 'assets/img/portfolio/news_summarizer_2.png' },
             { type: 'image', src: 'assets/img/portfolio/news_summarizer_3.png', alt: 'News Summarizer Dashboard' }
         ],
