@@ -31,7 +31,9 @@
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -43,20 +45,25 @@
 
 <body data-spy="scroll" data-target=".fixed-top">
 
-
-
-
-    <!-- Navigation (add this above your header) -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="logo">AlphaTechLogics</a>
-            <ul class="nav-links" style="margin-bottom: 0;">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#contact" class="nav-cta" onclick="closeMenu()">Book a Call</a></li>
             </ul>
-            <a href="#contact" class="nav-cta" role="button" aria-label="Book a Call">Book a Call</a>
         </div>
     </nav>
 
@@ -121,7 +128,8 @@
                     <i class="fas fa-shield-alt"></i>
                 </div>
                 <div class="banner-message">
-                    Hey, I <a href=""></a>m from AlphaTechLogics. Let's find the right solution to make your work smarter
+                    Hey, I <a href=""></a>m from AlphaTechLogics. Let's find the right solution to make your work
+                    smarter and efficent!
                 </div>
             </div>
             <a href="#contact" class="banner-cta">Get in Touch</a>
@@ -130,41 +138,20 @@
 
 
 
-    <!-- About-->
-    <div id="about" class="basic-1 bg-gray ">
+    <!-- About Section -->
+    <div id="about" class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-container first">
-                        <h2>Hi there I'm Mark,</h2>
-                        <p>And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then
-                            development and launch</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container second">
-                        <div class="time">2019 - PRESENT</div>
-                        <h6>Freelance Web Developer</h6>
-                        <p>Working happily on my own web projects</p>
-                        <div class="time">2018 - 2019</div>
-                        <h6>Lead Web Developer</h6>
-                        <p>Beautiful project for a major digital agency</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container third">
-                        <div class="time">2017 - 2018</div>
-                        <h6>Senior Web Designer</h6>
-                        <p>Inhouse web designer for ecommerce firm</p>
-                        <div class="time">2016 - 2017</div>
-                        <h6>Junior Web Designer</h6>
-                        <p>Junior web designer for small web agency</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of about -->
+            <div class="about-badge">About AlphaTechLogics</div>
+            <h2 class="about-title">Who We Are</h2>
+            <p class="about-description">
+                AlphaTechLogics is a cutting-edge AI technology company dedicated to transforming businesses through
+                intelligent automation and custom AI solutions. We specialize in developing scalable AI agents, machine
+                learning models, and intelligent systems that drive real-world impact. Our team of expert engineers and
+                data scientists work closely with clients to deliver ethical, responsible AI solutions that enhance
+                productivity, reduce costs, and unlock new opportunities for growth across industries.
+            </p>
+        </div>
+    </div>
 
 
     <!-- Services -->
@@ -173,7 +160,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Offered Services</h2>
-                    <p class="p-heading">AI has been at the core of what we do for the past 5+ years. During this time, we've helped startups, enterprises, and research teams bring intelligent systems to life with following services</p>
+                    <p class="p-heading">AI has been at the core of what we do for the past 5+ years. During this time,
+                        we've helped startups, enterprises, and research teams bring intelligent systems to life with
+                        following services</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -181,21 +170,24 @@
                     <div class="text-box">
                         <i class="far fa-gem"></i>
                         <h4>Custom AI Model Development</h4>
-                        <p>We design and train tailored models for computer vision, NLP, recommendation systems, and more — aligned with your business goals</p>
+                        <p>We design and train tailored models for computer vision, NLP, recommendation systems, and
+                            more — aligned with your business goals</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
                         <i class="fas fa-code"></i>
                         <h4>AI-Powered Web & App Solutions</h4>
-                        <p>We build intelligent web and mobile applications that leverage AI to automate tasks, enhance UX, and deliver smarter user interactions</p>
+                        <p>We build intelligent web and mobile applications that leverage AI to automate tasks, enhance
+                            UX, and deliver smarter user interactions</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
                         <i class="fas fa-tv"></i>
                         <h4>Model Optimization & Deployment</h4>
-                        <p>From ONNX conversion to TensorRT acceleration, we optimize your models for real-time performance on cloud, mobile, or embedded devices</p>
+                        <p>From ONNX conversion to TensorRT acceleration, we optimize your models for real-time
+                            performance on cloud, mobile, or embedded devices</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -210,7 +202,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-title">Why Choose AlphaTechLogics</h2>
-                    <p class="section-subtitle">We build AI solutions that solve real problems — fast, efficient, and tailored to your needs.</p>
+                    <p class="section-subtitle">We build AI solutions that solve real problems — fast, efficient, and
+                        tailored to your needs.</p>
 
                     <div class="stats-grid">
                         <div class="stat-item">
@@ -294,17 +287,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Our Portfolio</h2>
-                    <p class="p-heading">Listed below are some of the most representative projects I've worked on. They range from basic web design for presentation sites to advanced web development
+                    <p class="p-heading">Listed below are some of the most representative projects I've worked on. They
+                        range from basic web design for presentation sites to advanced web development
                         for online shops</p>
-                </div> <!-- end of col -->    
+                </div> <!-- end of col -->
             </div> <!-- end of row -->
-            
+
             <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-3 -->
     <!-- end of projects -->
 
- 
+
 
     <!-- Works -->
     <div class="basic-4">
@@ -317,7 +311,8 @@
                                 <img class="img-fluid" src="images/project/news_summarizer.png" alt="News Summarizer">
                             </a>
                         </div>
-                        <p><strong>News Summarizer</strong>:</strong> AI-powered news summarization system <a class="blue" href="portfolio-details.html?project=news_summarizer">details</a></p>
+                        <p><strong>News Summarizer</strong>:</strong> AI-powered news summarization system <a
+                                class="blue" href="portfolio-details.html?project=news_summarizer">details</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -327,17 +322,20 @@
                                 <img class="img-fluid" src="images/project/multimodel rag.png" alt="Multimodal RAG">
                             </a>
                         </div>
-                        <p><strong>Multimodal RAG</strong>:</strong> Advanced multimodal RAG system <a class="blue" href="portfolio-details.html?project=multimodel_rag">details</a></p>
+                        <p><strong>Multimodal RAG</strong>:</strong> Advanced multimodal RAG system <a class="blue"
+                                href="portfolio-details.html?project=multimodel_rag">details</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="text-container">
                         <div class="image-container">
                             <a href="portfolio-details.html?project=sentiment_analysis">
-                                <img class="img-fluid" src="images/project/sentimental analysis.jpg" alt="Sentiment Analysis">
+                                <img class="img-fluid" src="images/project/sentimental analysis.jpg"
+                                    alt="Sentiment Analysis">
                             </a>
                         </div>
-                        <p><strong>Sentimental Analysis</strong>:</strong> Sentiment analysis platform for social media <a class="blue" href="portfolio-details.html?project=sentiment_analysis">details</a></p>
+                        <p><strong>Sentimental Analysis</strong>:</strong> Sentiment analysis platform for social media
+                            <a class="blue" href="portfolio-details.html?project=sentiment_analysis">details</a></p>
                     </div>
                 </div>
             </div>
@@ -349,7 +347,8 @@
                                 <img class="img-fluid" src="images/project/math_tutor.png" alt="Math Tutor">
                             </a>
                         </div>
-                        <p><strong>Math Tutor</strong>:</strong> AI-powered math tutoring application <a class="blue" href="portfolio-details.html?project=math_tutor">details</a></p>
+                        <p><strong>Math Tutor</strong>:</strong> AI-powered math tutoring application <a class="blue"
+                                href="portfolio-details.html?project=math_tutor">details</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -359,17 +358,20 @@
                                 <img class="img-fluid" src="images/project/fraud_detection.jpg" alt="Fraud Detection">
                             </a>
                         </div>
-                        <p><strong>Fraud Detection System</strong>:</strong> Machine learning fraud detection system <a class="blue" href="portfolio-details.html?project=fraud_detection">details</a></p>
+                        <p><strong>Fraud Detection System</strong>:</strong> Machine learning fraud detection system <a
+                                class="blue" href="portfolio-details.html?project=fraudulentdetection">details</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="text-container">
                         <div class="image-container">
                             <a href="portfolio-details.html?project=plant_disease">
-                                <img class="img-fluid" src="images/project/plant_disease.jpg" alt="Plant Disease Detection">
+                                <img class="img-fluid" src="images/project/plant_disease.jpg"
+                                    alt="Plant Disease Detection">
                             </a>
                         </div>
-                        <p><strong>Lead Disease Detection</strong>:</strong> Plant disease detection using computer vision <a class="blue" href="portfolio-details.html?project=plant_disease">details</a></p>
+                        <p><strong>Lead Disease Detection</strong>:</strong> Plant disease detection using computer
+                            vision <a class="blue" href="portfolio-details.html?project=plant_disease">details</a></p>
                     </div>
                 </div>
             </div>
@@ -380,37 +382,37 @@
     </div>
 
     <style>
-    .text-container a {
-        text-decoration: none;
-        transition: all 0.3s ease;
-    }
+        .text-container a {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
 
-    .text-container a:hover {
-        transform: translateY(-2px);
-    }
+        .text-container a:hover {
+            transform: translateY(-2px);
+        }
 
-    .image-container {
-        overflow: hidden;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
+        .image-container {
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
 
-    .image-container img {
-        transition: transform 0.3s ease;
-    }
+        .image-container img {
+            transition: transform 0.3s ease;
+        }
 
-    .image-container:hover img {
-        transform: scale(1.05);
-    }
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
 
-    .btn {
-        transition: all 0.3s ease;
-    }
+        .btn {
+            transition: all 0.3s ease;
+        }
 
-    .btn:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
     </style>
 
 
@@ -428,7 +430,8 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-body">
-                            <p class="testimonial-text">“Mark is a skilled developer which will do everything possible to deliver the project on time and I really appreciate that”</p>
+                            <p class="testimonial-text">“Mark is a skilled developer which will do everything possible
+                                to deliver the project on time and I really appreciate that”</p>
                             <div class="details">
                                 <img src="images/testimonial-1.jpg" alt="alternative">
                                 <div class="text">
@@ -443,7 +446,8 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-body">
-                            <p class="testimonial-text">“Loved to work with Mark he's such an awesome developer with great attention to details. He also has a great eye for design”</p>
+                            <p class="testimonial-text">“Loved to work with Mark he's such an awesome developer with
+                                great attention to details. He also has a great eye for design”</p>
                             <div class="details">
                                 <img src="images/testimonial-2.jpg" alt="alternative">
                                 <div class="text">
@@ -458,7 +462,8 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-body">
-                            <p class="testimonial-text">“So glad we started working with Mark. We've used many times his design and development skills for our inhouse online projects”</p>
+                            <p class="testimonial-text">“So glad we started working with Mark. We've used many times his
+                                design and development skills for our inhouse online projects”</p>
                             <div class="details">
                                 <img src="images/testimonial-3.jpg" alt="alternative">
                                 <div class="text">
@@ -502,65 +507,80 @@
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     How can I contact you and quickly get a quote for my online project?
                                 </button>
                             </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    The best way to reach me is through the contact form of by messaging me on my social
+                                    media accounts. For a fast quote make sure your provide many project details
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
                                     Do you create designs from the ground up or you are using themes?
                                 </button>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    The best way to reach me is through the contact form of by messaging me on my social
+                                    media accounts. For a fast quote make sure your provide many project details
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
                                     Will I receive any included maintenance or warranty after project delivery?
                                 </button>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    The best way to reach me is through the contact form of by messaging me on my social
+                                    media accounts. For a fast quote make sure your provide many project details
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
                                     aria-controls="collapseFour">
                                     If something goes wrong with the project can I have my money back?
                                 </button>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    The best way to reach me is through the contact form of by messaging me on my social
+                                    media accounts. For a fast quote make sure your provide many project details
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFive">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
                                     aria-controls="collapseFive">
                                     What's your preferred method of payment and do you need an advance?
                                 </button>
                             </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    The best way to reach me is through the contact form of by messaging me on my social
+                                    media accounts. For a fast quote make sure your provide many project details
                                 </div>
                             </div>
                         </div>
@@ -579,8 +599,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Contact details</h2>
-                    <p class="p-heading">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email <a
-                            class="purple no-line" href="#your-link">contact@alphatechlogics.com</a></p>
+                    <p class="p-heading">For any type of online project please don't hesitate to get in touch with me.
+                        The fastest way is to send me your message using the following email <a class="purple no-line"
+                            href="#your-link">contact@alphatechlogics.com</a></p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -632,9 +653,9 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://creators.spotify.com/pod/profile/the-digital-pulse9/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <i class="fab fa-spotify fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
