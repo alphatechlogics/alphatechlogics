@@ -350,23 +350,63 @@ body {
 }
 
 .profile-card {
-  background: linear-gradient(135deg, #8b7355 0%, #6b5b47 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   grid-row: span 2;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px 6px rgba(128, 0, 128, 0.6);
+  min-height: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
-.profile-image {
-  width: 150px;
-  height: 150px;
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* AI Icon/Avatar */
+.ai-avatar {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  background: #2d3748;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-size: 3rem;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.ai-avatar i {
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Profile text */
+.profile-text h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+.profile-text p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Alternative: Remove image container entirely */
+.profile-image {
+  display: none;
 }
 
 .stats-card {
@@ -1844,7 +1884,7 @@ input[type="checkbox"] {
 /******************************/
 /*     Back To Top Button     */
 /******************************/
-a.back-to-top {
+/* a.back-to-top {
   position: fixed;
   z-index: 999;
   right: 12px;
@@ -1860,7 +1900,7 @@ a.back-to-top {
 
 a:hover.back-to-top {
   background-color: #960ba8;
-}
+} */
 
 /***********************/
 /*     Extra Pages     */
