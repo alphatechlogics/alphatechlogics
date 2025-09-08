@@ -947,6 +947,30 @@ It trains much faster.</p>
     `
     },
 
+    'texture_transfer': {
+        title: 'Texture Transfer Onto Torso for Soccer Players',
+        client: 'Zigoland',
+        category: 'Artificial Intelligence',
+        date: 'September 2025',
+        url: 'https://github.com/alphatechlogics/detectron2-customized',
+        media: [{ 'type': 'image', 'src': 'images/project/detectron2_customized.png', 'alt': 'detectron2-customized Interface' }],
+        description: `This project implements automated logo placement on football player jerseys with consistent tracking across video frames. After testing 18 state-of-the-art models, we developed two primary solutions: CameraHMR for 3D mesh-based texture transfer and DensePose+SAPIENS+YOLO pipeline for real-time processing.`,
+        fullDescription: `
+        <h4>Description</h4>
+        <p>This project implements automated logo placement on football player jerseys with consistent tracking across video frames. After testing 18 state-of-the-art models, we developed two primary solutions: CameraHMR for 3D mesh-based texture transfer and DensePose+SAPIENS+YOLO pipeline for real-time processing.</p>
+
+        <h4>Features</h4>
+        <p>Real-time logo placement with 3D mesh-based texture mapping, temporal consistency through frame smoothing and UV coordinate stabilization, multi-player processing with instance-level segmentation, optimized performance achieving 3-4x speed improvement, and live webcam support for real-time applications.</p>
+
+        <h4>Development Stack & Skills</h4>
+        <p>Computer Vision: OpenCV, DensePose, CameraHMR, SAPIENS, YOLO
+Deep Learning: PyTorch, 3D Human Pose Estimation, Instance Segmentation
+3D Processing: Mesh reconstruction, UV mapping, Texture sampling and blending
+Optimization: Vectorized operations, Memory management, Real-time processing</p>
+    `
+    },
+
+
     'multiply_customization': {
         title: 'MultiPly-customization',
         client: 'Zigoland',
