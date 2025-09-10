@@ -196,6 +196,32 @@ Interactive Web App: Built using Streamlit for easy image uploads and prediction
     `
     },
 
+    'age_gender': {
+        title: 'Retail Analytics POC: Age & Gender Detection',
+        client: 'Zigoland',
+        category: 'Artificial Intelligence',
+        date: 'July 2025',
+        url: 'https://github.com/alphatechlogics/Sense-of-Retail',
+        media: [{ 'type': 'image', 'src': 'images/project/Age_gender.png', 'alt': 'age_gender' }],
+        description: `This project is a real-time customer analytics system designed to monitor store activity and provide insights into customer demographics.`,
+        fullDescription: `
+        <h4>Description</h4>
+        <p>This project is a real-time customer analytics system designed to monitor store activity and provide insights into customer demographics. By combining YOLO for gender detection and DeepFace for age estimation, the system enables accurate profiling of customer visits across different store sections. A Streamlit dashboard was deployed within two weeks, delivering live data refresh and interactive visual analytics for quick decision-making</p>
+
+        <h4>Features</h4>
+        <p>Real-Time Tracking: Monitors and records customer visits across store sections.
+
+Gender Detection: Achieves ~93% precision using a fine-tuned YOLO model.
+
+Age Estimation: Provides age prediction with <5% error using DeepFace.
+
+Visual Analytics Dashboard: Built with Streamlit, supports live data refresh and dynamic visualizations.</p>
+
+        <h4>Development Stack & Skills</h4>
+        <p>Python, DeepFace, YOLO</p>
+    `
+    },
+
     'text_classification': {
         title: 'Text-Classification',
         client: 'Zigoland',
