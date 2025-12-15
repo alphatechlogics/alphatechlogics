@@ -34,7 +34,7 @@ FontAwesome</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/News-summarizer-poc',
-        media: [{ 'type': 'image', 'src': 'images/project/news_summarizer_poc.png', 'alt': 'News-summarizer-poc Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/news_summarizer.png', 'alt': 'News-summarizer-poc Interface' }],
         description: `This project is a Streamlit-based application that fetches and analyzes news articles related to a specific stock ticker. It provides sentiment analysis, summarization, and sector/ticker extraction for each article.`,
         fullDescription: `
         <h4>Description</h4>
@@ -57,7 +57,7 @@ Extract related stock tickers and sectors from the article content.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Sentiment-Analysis',
-        media: [{ 'type': 'image', 'src': 'images/project/sentiment_analysis.png', 'alt': 'Sentiment-Analysis Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/sentimental analysis.jpg', 'alt': 'Sentiment-Analysis Interface' }],
         description: `This application leverages a simple Recurrent Neural Network (RNN) to determine whether an IMDB movie review is positive or negative. Built with Streamlit, the app offers an intuitive and interactive user interface, allowing you to input your own reviews and receive instant sentiment predictions.`,
         fullDescription: `
         <h4>Description</h4>
@@ -80,7 +80,7 @@ Extract related stock tickers and sectors from the article content.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Audio-Recognition-AI-Engine',
-        media: [{ 'type': 'image', 'src': 'images/project/audio_recognition_ai_engine.png', 'alt': 'Audio-Recognition-AI-Engine Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/audio_recognition.png', 'alt': 'Audio-Recognition-AI-Engine Interface' }],
         description: `initial commit for Audio-Recognition-AI-Engine`,
         fullDescription: `
         <h4>Description</h4>
@@ -100,7 +100,7 @@ Extract related stock tickers and sectors from the article content.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/MultiModal-RAG',
-        media: [{ 'type': 'image', 'src': 'images/project/multimodal_rag.png', 'alt': 'MultiModal-RAG Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/multimodel rag.png', 'alt': 'MultiModal-RAG Interface' }],
         description: `This system enables you to effortlessly upload PDF documents and pose natural language queries. It seamlessly integrates a FastAPI-powered backend with a user-friendly frontend built using Streamlit.`,
         fullDescription: `
         <h4>Description</h4>
@@ -113,7 +113,7 @@ User-Friendly UI: Enjoy a clean, intuitive interface that simplifies interaction
 Interactive Frontend: Benefit from an interactive Streamlit-based frontend for enhanced user experience.</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>Python, Javascript, CSS, HTML</p>
     `
     },
 
@@ -123,7 +123,7 @@ Interactive Frontend: Benefit from an interactive Streamlit-based frontend for e
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/QandA-System',
-        media: [{ 'type': 'image', 'src': 'images/project/qanda_system.png', 'alt': 'QandA-System Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/q_a.png', 'alt': 'QandA-System Interface' }],
         description: `This is a simple yet powerful application built with Streamlit and Google Gemini LLM to interact with the generative AI model for answering questions in a conversational style.`,
         fullDescription: `
         <h4>Description</h4>
@@ -136,7 +136,7 @@ Interactive Frontend: Benefit from an interactive Streamlit-based frontend for e
  Error Handling to ensure smooth user experience.</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>Python</p>
     `
     },
 
@@ -146,7 +146,7 @@ Interactive Frontend: Benefit from an interactive Streamlit-based frontend for e
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/UniTest-Generator',
-        media: [{ 'type': 'image', 'src': 'images/project/unitest_generator.png', 'alt': 'UniTest-Generator Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/test_generator.png', 'alt': 'UniTest-Generator Interface' }],
         description: `A powerful test generation tool that uses AI to automatically generate test cases for both Java backend and Frontend (JavaScript/JSP) applications.`,
         fullDescription: `
         <h4>Description</h4>
@@ -180,7 +180,18 @@ Coverage reporting with Istanbul/Jest</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/garbage-sorting-image-classification',
-        media: [{ 'type': 'image', 'src': 'images/project/garbage_sorting_image_classification.png', 'alt': 'garbage-sorting-image-classification Interface' }],
+        media: [
+            {
+                'type': 'image',
+                'src': 'images/project/Garbage sorting set.jpg',
+                'alt': 'garbage-sorting-image-classification Interface'
+            },
+            {
+                'type': 'video',
+                'src': 'videos/WasteClassifierApp.mp4',
+                'alt': 'garbage-sorting-image-classification Demo Video'
+            }
+        ],
         description: `This project is an AI-powered image classification web application that classifies uploaded waste images into one of four categories.`,
         fullDescription: `
         <h4>Description</h4>
@@ -192,7 +203,7 @@ Pretrained Model: MobileNetV2 pretrained on ImageNet, fine-tuned on a waste data
 Interactive Web App: Built using Streamlit for easy image uploads and predictions.</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>Python, TensorFlow, Streamlit, MobileNetV2</p>
     `
     },
 
@@ -228,7 +239,7 @@ Visual Analytics Dashboard: Built with Streamlit, supports live data refresh and
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Text-Classification',
-        media: [{ 'type': 'image', 'src': 'images/project/text_classification.png', 'alt': 'Text-Classification Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/text_classification.jpg', 'alt': 'Text-Classification Interface' }],
         description: `This Natural Language Processing (NLP) application classifies BBC news articles into various genres such as Sports, Politics, Entertainment, Business, and Technology. Utilizing powerful models like LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit)`,
         fullDescription: `
         <h4>Description</h4>
@@ -250,7 +261,13 @@ Prediction Plot: Visualizes the prediction scores across different genres.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Text-Summarization',
-        media: [{ 'type': 'image', 'src': 'images/project/text_summarization.png', 'alt': 'Text-Summarization Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/text_summarization.png', 'alt': 'Text-Summarization Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/Text Summarization.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `A sleek and efficient web-based application for summarizing text and PDF documents, built with txtai and Streamlit.`,
         fullDescription: `
         <h4>Description</h4>
@@ -272,7 +289,13 @@ User-Friendly Interface: Simple, fast, and intuitive interface for seamless text
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Doctor-AI',
-        media: [{ 'type': 'image', 'src': 'images/project/doctor_ai.png', 'alt': 'Doctor-AI Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/docai.png', 'alt': 'Doctor-AI Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/Doctor AI.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `
 This is an AI-powered Streamlit application designed to help analyze user-provided images and questions about skin conditions.`,
         fullDescription: `
@@ -297,7 +320,13 @@ FastAPI Backend: A REST API to integrate diagnosis and chat functionality into o
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/ConstrucSafe',
-        media: [{ 'type': 'image', 'src': 'images/project/construcsafe.png', 'alt': 'ConstrucSafe Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/constructsafe.png', 'alt': 'ConstrucSafe Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/Construction Site Safety Detection.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `ConstrucSafe AI is a state-of-the-art application designed to enhance safety on construction sites through real-time object detection. Leveraging the power of YOLOv8, this tool detects and highlights safety equipment and potential hazards in images and videos, ensuring a safer working environment.`,
         fullDescription: `
         <h4>Description</h4>
@@ -322,7 +351,7 @@ User-Friendly Interface: Intuitive design built with Streamlit for seamless user
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/MathTutor',
-        media: [{ 'type': 'image', 'src': 'images/project/mathtutor.png', 'alt': 'MathTutor Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/math_tutor.png', 'alt': 'MathTutor Interface' }],
         description: `Advanced AI Math Tutor is a Streamlit-based web application designed to help users learn and practice various mathematical concepts. It leverages AI to provide problem-solving assistance, practice questions, concept exploration, and more.`,
         fullDescription: `
         <h4>Description</h4>
@@ -363,7 +392,7 @@ Math Game Center: Engage with math-based games for fun learning.</p>
         <p>nan</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>JupyterNotebook, Python</p>
     `
     },
 
@@ -373,7 +402,13 @@ Math Game Center: Engage with math-based games for fun learning.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/ICUMonitorScreenReader',
-        media: [{ 'type': 'image', 'src': 'images/project/icumonitorscreenreader.png', 'alt': 'ICUMonitorScreenReader Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/icu.jpg', 'alt': 'ICUMonitorScreenReader Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/ICU Monitor Data Extraction using OpenAI Vision API.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `This app utilizes OpenAI's Vision API to analyze ICU monitor images, extract vital signs like heart rate (HR), blood pressure (BP), oxygen saturation (SpO2), respiratory rate (RR), temperature, and more.`,
         fullDescription: `
         <h4>Description</h4>
@@ -396,7 +431,18 @@ Streamlit Interface: The app provides a user-friendly interface where users can 
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/PlantLeafDiseaseDetection',
-        media: [{ 'type': 'image', 'src': 'images/project/plantleafdiseasedetection.png', 'alt': 'PlantLeafDiseaseDetection Interface' }],
+        media: [
+            {
+                'type': 'image',
+                'src': 'images/project/plant_disease.jpg',
+                'alt': 'PlantLeafDiseaseDetection Interface'
+            },
+            {
+                'type': 'video',
+                'src': 'videos/LeafDiseaseDetection.mp4',
+                'alt': 'PlantLeafDiseaseDetection Demo Video'
+            }
+        ],
         description: `This project is a Deep Learning-based Leaf Disease Detection System that utilizes transfer learning to identify and classify diseases in plant leaves. The app leverages a pre-trained model to provide high-accuracy predictions for 33 different types of leaf diseases.`,
         fullDescription: `
         <h4>Description</h4>
@@ -418,7 +464,13 @@ Interactive UI: Built with Streamlit for an engaging user experience.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/BreastCancerDetection-',
-        media: [{ 'type': 'image', 'src': 'images/project/breastcancerdetection_.png', 'alt': 'BreastCancerDetection- Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/breast_cancer_detection.png', 'alt': 'BreastCancerDetection- Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/BreastCancerDetection.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `Welcome to the Breast Tumor Detection project! This project demonstrates to build, train, and deploy a deep learning model that detects breast tumors from mammogram images.`,
         fullDescription: `
         <h4>Description</h4>
@@ -428,7 +480,7 @@ Interactive UI: Built with Streamlit for an engaging user experience.</p>
         <p>nan</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>Jupyter Notebook, Python</p>
     `
     },
 
@@ -438,7 +490,7 @@ Interactive UI: Built with Streamlit for an engaging user experience.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/CarNumberPlateDetection',
-        media: [{ 'type': 'image', 'src': 'images/project/carnumberplatedetection.png', 'alt': 'CarNumberPlateDetection Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/car_number_plate_detection.png', 'alt': 'CarNumberPlateDetection Interface' }],
         description: `Vehicle Number Plate Detection System! 🚗 This project leverages the powerful YOLOv8 framework to accurately detect vehicle number plates in images.`,
         fullDescription: `
         <h4>Description</h4>
@@ -463,7 +515,7 @@ Robust Error Handling: Informative messages to guide users through any issues.</
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/WebScraperForImage',
-        media: [{ 'type': 'image', 'src': 'images/project/webscraperforimage.png', 'alt': 'WebScraperForImage Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/web_scraper.jpg', 'alt': 'WebScraperForImage Interface' }],
         description: `This project provides a FastAPI application that allows you to upload an image. The service uses Google Cloud Vision to perform reverse image search and extract text, and Selenium with headless Chrome to capture PDF screenshots of webpages where the image is found.`,
         fullDescription: `
         <h4>Description</h4>
@@ -488,7 +540,7 @@ Interactive API Documentation 📑: Test the endpoint via Swagger UI at /docs.</
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/BrainTumorPrediction',
-        media: [{ 'type': 'image', 'src': 'images/project/braintumorprediction.png', 'alt': 'BrainTumorPrediction Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/brain_tumor_detection.jpg', 'alt': 'BrainTumorPrediction Interface' }],
         description: `This tutorial will guide you through setting up the MRI 🩺 Image Classification app locally. The app allows users to upload MRI images, predict classifications, and visualize results, including tumor contouring. 🎨`,
         fullDescription: `
         <h4>Description</h4>
@@ -511,7 +563,7 @@ Prediction: Classifies MRI images into four categories.
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/HandWrittenDigitalsClassification',
-        media: [{ 'type': 'image', 'src': 'images/project/handwrittendigitalsclassification.png', 'alt': 'HandWrittenDigitalsClassification Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/digit_recognition.png', 'alt': 'HandWrittenDigitalsClassification Interface' }],
         description: `Welcome to the MNIST Digit Recognition project! This repository demonstrates a complete workflow for building, training, and deploying a neural network to recognize handwritten digits from the MNIST dataset.`,
         fullDescription: `
         <h4>Description</h4>
@@ -535,7 +587,7 @@ Interactive Drawing: Draw digits directly on a canvas for real-time classificati
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/BiomedicalLiteratureHelperWithBioGPT',
-        media: [{ 'type': 'image', 'src': 'images/project/biomedicalliteraturehelperwithbiogpt.png', 'alt': 'BiomedicalLiteratureHelperWithBioGPT Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/biomedical.png', 'alt': 'BiomedicalLiteratureHelperWithBioGPT Interface' }],
         description: `Welcome to the Biomedical Literature Helper with BioGPT! This Streamlit application leverages the power of the BioGPT language model to assist researchers, clinicians, and enthusiasts in generating and mining biomedical texts efficiently.`,
         fullDescription: `
         <h4>Description</h4>
@@ -559,7 +611,7 @@ Example Prompts: Explore pre-defined examples to understand the capabilities of 
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/LangGraphAgent',
-        media: [{ 'type': 'image', 'src': 'images/project/langgraphagent.png', 'alt': 'LangGraphAgent Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/lang_graph.png', 'alt': 'LangGraphAgent Interface' }],
         description: `This repository presents an intelligent customer support agent powered by LangGraph—a robust tool designed for building intricate workflows with language models.`,
         fullDescription: `
         <h4>Description</h4>
@@ -585,7 +637,7 @@ Workflow Graph: Leverages LangGraph to build an adaptable and extendable workflo
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/FinBERT_ML_TradingBot',
-        media: [{ 'type': 'image', 'src': 'images/project/finbert_ml_tradingbot.png', 'alt': 'FinBERT_ML_TradingBot Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/FinBERT.png', 'alt': 'FinBERT_ML_TradingBot Interface' }],
         description: `ML Algorithmic Trading Bot (Python, Alpaca, FinBERT`,
         fullDescription: `
         <h4>Description</h4>
@@ -798,7 +850,7 @@ High-Efficiency QA processes that harness the power of your uploaded documents.<
         <p>nan</p>
 
         <h4>Development Stack & Skills</h4>
-        <p>nan</p>
+        <p>Python, C++</p>
     `
     },
 
@@ -808,7 +860,13 @@ High-Efficiency QA processes that harness the power of your uploaded documents.<
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/StockMarketPricePrediction',
-        media: [{ 'type': 'image', 'src': 'images/project/stockmarketpriceprediction.png', 'alt': 'StockMarketPricePrediction Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/stockmarketpriceprediction.png', 'alt': 'StockMarketPricePrediction Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/Stock Prediction AI App.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `Stock Price Prediction App, an interactive web application designed to forecast future stock prices using advanced time-series modeling techniques.`,
         fullDescription: `
         <h4>Description</h4>
@@ -835,7 +893,13 @@ Multi-Index Handling: Automatically flattens multi-level data returned by Yahoo 
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/whisper_android',
-        media: [{ 'type': 'image', 'src': 'images/project/whisper_android.png', 'alt': 'whisper_android Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/whisper_android.png', 'alt': 'whisper_android Interface' },
+        {
+            'type': 'video',
+            'src': 'videos/Demo-Whisper-SpeechToTextTranscription.mp4',
+            'alt': 'PlantLeafDiseaseDetection Demo Video'
+        }
+        ],
         description: `Offline Speech Recognition with OpenAI Whisper and TensorFlow Lite for Android`,
         fullDescription: `
         <h4>Description</h4>
