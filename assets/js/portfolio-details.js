@@ -348,12 +348,12 @@ Math Game Center: Engage with math-based games for fun learning.</p>
     },
 
     'fraudulentdetection': {
-        title: 'FraudulentDetection',
+        title: 'Fraudulent Detection',
         client: 'Zigoland',
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/FraudulentDetection',
-        media: [{ 'type': 'image', 'src': 'images/project/fraudulentdetection.png', 'alt': 'FraudulentDetection Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/fraud_detection.jpg', 'alt': 'FraudulentDetection Interface' }],
         description: `This project aims to build a machine learning model to detect fraudulent credit card transactions using an ensemble approach.`,
         fullDescription: `
         <h4>Description</h4>
