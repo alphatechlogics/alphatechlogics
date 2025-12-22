@@ -757,7 +757,7 @@ High Accuracy: YOLOv8’s improved architecture ensures better precision and rec
     },
 
     'medicaldiseasepredictionrecommendation': {
-        title: 'MedicalDiseasePredictionRecommendation',
+        title: 'Medical Disease Prediction',
         client: 'Zigoland',
         category: 'Artificial Intelligence',
         date: 'March 2024',
@@ -781,7 +781,7 @@ Aesthetic Design: The UI features a visually appealing background image (embedde
     },
 
     'blogcraft': {
-        title: 'BlogCraft',
+        title: 'Blog Craft',
         client: 'Zigoland',
         category: 'Artificial Intelligence',
         date: 'March 2024',
@@ -855,7 +855,7 @@ High-Efficiency QA processes that harness the power of your uploaded documents.<
     },
 
     'stockmarketpriceprediction': {
-        title: 'StockMarketPricePrediction',
+        title: 'Stock Market Prediction',
         client: 'Zigoland',
         category: 'Artificial Intelligence',
         date: 'March 2024',

@@ -10,6 +10,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+    <!-- Styles from index.html for navigation -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="stylesheet" href="css/transitions.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
     <style>
         * {
             margin: 0;
@@ -22,40 +32,6 @@
             background: #fafbfc;
             color: #1a1a1a;
             line-height: 1.6;
-        }
-
-        /* Navigation */
-        .navbar {
-            background: white !important;
-            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
-            padding: 1rem 0;
-            transition: all 0.3s ease;
-        }
-
-        .navbar-brand {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #960ba8 !important;
-            text-decoration: none;
-        }
-
-        .navbar-nav .nav-link {
-            color: #960ba8 !important;
-            font-weight: 500;
-            margin: 0 0.5rem;
-            padding: 0.5rem 1rem !important;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: #960ba8 !important;
-            background: rgba(139, 92, 246, 0.1);
-        }
-
-        .navbar-nav .nav-link.active {
-            background: #960ba8;
-            color: white !important;
         }
 
         /* Main Container */
@@ -302,38 +278,27 @@
     </style>
 </head>
 
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">AlphatechLogics</a>
+<body data-spy="scroll" data-target=".fixed-top">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- Navigation - Matching index.html -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AlphaTechLogics</a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="all-projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contact</a>
-                    </li>
-                </ul>
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="all-projects.html" onclick="closeMenu()">Projects</a></li>
+                <li><a href="index.html#about" onclick="closeMenu()">About</a></li>
+                <li><a href="index.html#contact" class="nav-cta" onclick="closeMenu()">Book a Call</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -1159,7 +1124,7 @@
                     <div class="project-header">
                         <div class="project-logo">ZL</div>
                         <div class="project-info">
-                            <h3>MedicalDiseasePredictionRecommendation</h3>
+                            <h3>Medical Disease Prediction</h3>
                             <div class="project-client">Zigoland • March 2024</div>
                         </div>
                     </div>

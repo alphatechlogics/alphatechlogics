@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +27,170 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <style>
+    /* Hide the old header completely and replace with index.html navbar */
+    #header.header {
+      display: none !important;
+    }
+
+    /* Navbar from index.html */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      z-index: 1000;
+      padding: 1rem 0;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #9a1697;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .navbar .logo:hover {
+      color: #9a1697;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      padding: 0.5rem 0;
+    }
+
+    .nav-links li a:hover {
+      color: #9a1697;
+    }
+
+    .nav-cta {
+      background: linear-gradient(135deg, #9a1697 0%, #9a1697 100%);
+      color: white !important;
+      padding: 0.75rem 1.5rem !important;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .nav-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+    }
+
+    .hamburger span {
+      width: 25px;
+      height: 3px;
+      background: #2c3e50;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Add padding to main to account for fixed navbar */
+    .main {
+      padding-top: 70px;
+    }
+
+    /* Fix text alignment for portfolio content */
+    .portfolio-info,
+    .portfolio-description {
+      text-align: left !important;
+    }
+
+    .portfolio-info h3,
+    .portfolio-description h2 {
+      text-align: left !important;
+    }
+
+    .portfolio-info ul {
+      text-align: left !important;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .portfolio-description p {
+      text-align: left !important;
+    }
+
+    /* Mobile Menu */
+    @media (max-width: 768px) {
+      .hamburger {
+        display: flex;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        max-width: 300px;
+        background: white;
+        flex-direction: column;
+        padding: 2rem;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+      }
+
+      .nav-links.active {
+        right: 0;
+      }
+
+      .nav-links li {
+        width: 100%;
+      }
+
+      .nav-links li a {
+        display: block;
+        padding: 1rem 0;
+      }
+    }
+  </style>
 
   <!-- =======================================================
   * Template Name: FlexStart
@@ -37,6 +202,28 @@
 </head>
 
 <body class="portfolio-details-page">
+
+  <!-- Navigation from index.html -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">AlphaTechLogics</a>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+        <li><a href="index.html#services" onclick="closeMenu()">Services</a></li>
+        <li><a href="index.html#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="index.html#about" onclick="closeMenu()">About</a></li>
+        <li><a href="index.html#contact" class="nav-cta" onclick="closeMenu()">Book a Call</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div
@@ -50,12 +237,12 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li>
-            <a href="index.html#hero" class="active">Home<br /></a>
+            <a href="index.html">Home</a>
           </li>
           <!-- <li><a href="#about">About</a></li> -->
           <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
@@ -111,7 +298,7 @@
       </nav>
 
       <a class="btn-getstarted flex-md-shrink-0" href="index.html#contact"
-        >Get Started</a
+        >Book a Call</a
       >
     </div>
   </header>
@@ -314,6 +501,35 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/portfolio-details.js"></script>
+
+  <!-- Navigation Toggle Script from index.html -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      const hamburger = document.querySelector('.hamburger');
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    }
+
+    function closeMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      const hamburger = document.querySelector('.hamburger');
+      navLinks.classList.remove('active');
+      hamburger.classList.remove('active');
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const navbar = document.querySelector('.navbar');
+      const navLinks = document.querySelector('.nav-links');
+      const hamburger = document.querySelector('.hamburger');
+      
+      if (!navbar.contains(event.target)) {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      }
+    });
+  </script>
 
 
 </body>
