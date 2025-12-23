@@ -688,7 +688,7 @@ NSFW Safety Bypass for Stable Diffusion: (⚠️ Note: The safety checker is dis
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/AIAvatar',
-        media: [{ 'type': 'image', 'src': 'images/project/aiavatar.png', 'alt': 'AIAvatar Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/ai_avatar.png', 'alt': 'AIAvatar Interface' }],
         description: `Welcome to the LightX AI Services app! This Streamlit application lets you transform your personal photo into either a personalized AI Avatar or a professional full-body cartoon character using the LightX APIs.`,
         fullDescription: `
         <h4>Description</h4>
@@ -714,7 +714,7 @@ User-Friendly UI: Built with Streamlit for an interactive experience.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Alpha-navigator',
-        media: [{ 'type': 'image', 'src': 'images/project/alpha_navigator.png', 'alt': 'Alpha-navigator Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/travel_agent.png', 'alt': 'Alpha-navigator Interface' }],
         description: `Alpha Navigator repository! This project demonstrates how to build a specialized conversational travel agent using LangChain, OpenAI GPT, and the Tavily search tool.`,
         fullDescription: `
         <h4>Description</h4>
