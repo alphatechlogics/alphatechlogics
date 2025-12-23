@@ -660,7 +660,7 @@ Risk Management: Implements stop-loss and take-profit mechanisms for automated t
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/Text-to-Image-Generation-via-DALL-E3-StableDiffusion',
-        media: [{ 'type': 'image', 'src': 'images/project/text_to_image_generation_via_dall_e3_stablediffusion.png', 'alt': 'Text-to-Image-Generation-via-DALL-E3-StableDiffusion Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/text_image_gen.png', 'alt': 'Text-to-Image-Generation-via-DALL-E3-StableDiffusion Interface' }],
         description: `Streamlit-based web application that allows you to generate images from text prompts using cutting-edge AI models.`,
         fullDescription: `
         <h4>Description</h4>
@@ -738,7 +738,7 @@ Travel-Specific Behavior: Only responds to travel-related queries; for non-trave
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/VideoBlur',
-        media: [{ 'type': 'image', 'src': 'images/project/videoblur.png', 'alt': 'VideoBlur Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/blur_video.jpg', 'alt': 'VideoBlur Interface' }],
         description: `A simple yet effective solution to blur selected objects (like faces, people, etc.) in a video using YOLOv8.`,
         fullDescription: `
         <h4>Description</h4>
@@ -762,7 +762,7 @@ High Accuracy: YOLOv8’s improved architecture ensures better precision and rec
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/MedicalDiseasePredictionRecommendation',
-        media: [{ 'type': 'image', 'src': 'images/project/medicaldiseasepredictionrecommendation.png', 'alt': 'MedicalDiseasePredictionRecommendation Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/medical_pred.png', 'alt': 'MedicalDiseasePredictionRecommendation Interface' }],
         description: `Medical Disease Prediction & Recommendation System! This project leverages machine learning to predict diseases based on user-input symptoms and then provides recommendations for precautions, medications, diet, and workouts.`,
         fullDescription: `
         <h4>Description</h4>
@@ -786,7 +786,7 @@ Aesthetic Design: The UI features a visually appealing background image (embedde
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/BlogCraft',
-        media: [{ 'type': 'image', 'src': 'images/project/blogcraft.png', 'alt': 'BlogCraft Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/blog_post_gen.png', 'alt': 'BlogCraft Interface' }],
         description: `BlogCraft is an AI-powered blog generation tool that helps you create detailed, engaging, and well-structured blog posts with ease.`,
         fullDescription: `
         <h4>Description</h4>
@@ -816,7 +816,7 @@ Simply provide a blog topic and relevant interests; let the AI craft a comprehen
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/RAG',
-        media: [{ 'type': 'image', 'src': 'images/project/rag.png', 'alt': 'RAG Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/rag_scratch.png', 'alt': 'RAG Interface' }],
         description: `This solution implements a Retrieval-Augmented Generation (RAG) technique, coupled with a Streamlit-based interface to manage PDF document uploads and queries.`,
         fullDescription: `
         <h4>Description</h4>
@@ -840,7 +840,7 @@ High-Efficiency QA processes that harness the power of your uploaded documents.<
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/multiPly_v2',
-        media: [{ 'type': 'image', 'src': 'images/project/multiply_v2.png', 'alt': 'multiPly_v2 Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/multiply.png', 'alt': 'multiPly_v2 Interface' }],
         description: `MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild (CVPR2024 Oral)`,
         fullDescription: `
         <h4>Description</h4>
@@ -860,7 +860,7 @@ High-Efficiency QA processes that harness the power of your uploaded documents.<
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/StockMarketPricePrediction',
-        media: [{ 'type': 'image', 'src': 'images/project/stockmarketpriceprediction.png', 'alt': 'StockMarketPricePrediction Interface' },
+        media: [{ 'type': 'image', 'src': 'images/project/stock_price_web.png', 'alt': 'StockMarketPricePrediction Interface' },
         {
             'type': 'video',
             'src': 'videos/Stock Prediction AI App.mp4',
@@ -893,7 +893,7 @@ Multi-Index Handling: Automatically flattens multi-level data returned by Yahoo 
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/whisper_android',
-        media: [{ 'type': 'image', 'src': 'images/project/whisper_android.png', 'alt': 'whisper_android Interface' },
+        media: [{ 'type': 'image', 'src': 'images/project/whisperai.png', 'alt': 'whisper_android Interface' },
         {
             'type': 'video',
             'src': 'videos/Demo-Whisper-SpeechToTextTranscription.mp4',
@@ -936,7 +936,7 @@ Rust
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/VideoAddsPlatform',
-        media: [{ 'type': 'image', 'src': 'images/project/videoaddsplatform.png', 'alt': 'VideoAddsPlatform Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/video_add_platform.jpg', 'alt': 'VideoAddsPlatform Interface' }],
         description: `A FastAPI-based platform that integrates YouTube and Google Ads APIs to search for videos and video advertisements.`,
         fullDescription: `
         <h4>Description</h4>
@@ -963,7 +963,7 @@ Save videos into a user’s personal library for reference.</p>
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/FaseehGPT',
-        media: [{ 'type': 'image', 'src': 'images/project/faseehgpt.png', 'alt': 'FaseehGPT Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/chatgpt.jpg', 'alt': 'FaseehGPT Interface' }],
         description: `FaseehGPT is an advanced pipeline for training a GPT-style language model specifically designed for the Arabic language.`,
         fullDescription: `
         <h4>Description</h4>
@@ -988,7 +988,7 @@ Evaluation Metrics: Supports perplexity and BLEU score for model performance eva
         category: 'Artificial Intelligence',
         date: 'March 2024',
         url: 'https://github.com/alphatechlogics/project-proposal-agent',
-        media: [{ 'type': 'image', 'src': 'images/project/project_proposal_agent.png', 'alt': 'project-proposal-agent Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/project_proposal.jpg', 'alt': 'project-proposal-agent Interface' }],
         description: `An intelligent system that processes business requirement documents and generates comprehensive technical documentation using AI-powered analysis.`,
         fullDescription: `
         <h4>Description</h4>
@@ -1014,28 +1014,28 @@ Downloadable consolidated reports</p>
     `
     },
 
-    'detectron2_customized': {
-        title: 'detectron2-customized',
-        client: 'Zigoland',
-        category: 'Artificial Intelligence',
-        date: 'March 2024',
-        url: 'https://github.com/alphatechlogics/detectron2-customized',
-        media: [{ 'type': 'image', 'src': 'images/project/detectron2_customized.png', 'alt': 'detectron2-customized Interface' }],
-        description: `Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.`,
-        fullDescription: `
-        <h4>Description</h4>
-        <p>Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.</p>
+//     'detectron2_customized': {
+//         title: 'detectron2-customized',
+//         client: 'Zigoland',
+//         category: 'Artificial Intelligence',
+//         date: 'March 2024',
+//         url: 'https://github.com/alphatechlogics/detectron2-customized',
+//         media: [{ 'type': 'image', 'src': 'images/project/detectron2_customized.png', 'alt': 'detectron2-customized Interface' }],
+//         description: `Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.`,
+//         fullDescription: `
+//         <h4>Description</h4>
+//         <p>Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.</p>
 
-        <h4>Features</h4>
-        <p>Includes new capabilities such as panoptic segmentation, Densepose, Cascade R-CNN, rotated bounding boxes, PointRend, DeepLab, ViTDet, MViTv2 etc.
-Used as a library to support building research projects on top of it.
-Models can be exported to TorchScript format or Caffe2 format for deployment.
-It trains much faster.</p>
+//         <h4>Features</h4>
+//         <p>Includes new capabilities such as panoptic segmentation, Densepose, Cascade R-CNN, rotated bounding boxes, PointRend, DeepLab, ViTDet, MViTv2 etc.
+// Used as a library to support building research projects on top of it.
+// Models can be exported to TorchScript format or Caffe2 format for deployment.
+// It trains much faster.</p>
 
-        <h4>Development Stack & Skills</h4>
-        <p>Python, Cuda, C++</p>
-    `
-    },
+//         <h4>Development Stack & Skills</h4>
+//         <p>Python, Cuda, C++</p>
+//     `
+//     },
 
     'texture_transfer': {
         title: 'Texture Transfer Onto Torso for Soccer Players',
@@ -1043,7 +1043,7 @@ It trains much faster.</p>
         category: 'Artificial Intelligence',
         date: 'September 2025',
         url: 'https://github.com/alphatechlogics/detectron2-customized',
-        media: [{ 'type': 'image', 'src': 'images/project/detectron2_customized.png', 'alt': 'detectron2-customized Interface' }],
+        media: [{ 'type': 'image', 'src': 'images/project/texture_transfer.png', 'alt': 'detectron2-customized Interface' }],
         description: `This project implements automated logo placement on football player jerseys with consistent tracking across video frames. After testing 18 state-of-the-art models, we developed two primary solutions: CameraHMR for 3D mesh-based texture transfer and DensePose+SAPIENS+YOLO pipeline for real-time processing.`,
         fullDescription: `
         <h4>Description</h4>
@@ -1061,27 +1061,27 @@ Optimization: Vectorized operations, Memory management, Real-time processing</p>
     },
 
 
-    'multiply_customization': {
-        title: 'MultiPly-customization',
-        client: 'Zigoland',
-        category: 'Artificial Intelligence',
-        date: 'March 2024',
-        url: 'https://github.com/alphatechlogics/MultiPly-customization',
-        media: [{ 'type': 'image', 'src': 'images/project/multiply_customization.png', 'alt': 'MultiPly-customization Interface' }],
-        description: `
-MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild (CVPR2024 Oral)`,
-        fullDescription: `
-        <h4>Description</h4>
-        <p>
-MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild (CVPR2024 Oral)</p>
+//     'multiply_customization': {
+//         title: 'MultiPly-customization',
+//         client: 'Zigoland',
+//         category: 'Artificial Intelligence',
+//         date: 'March 2024',
+//         url: 'https://github.com/alphatechlogics/MultiPly-customization',
+//         media: [{ 'type': 'image', 'src': 'images/project/multiply_customization.png', 'alt': 'MultiPly-customization Interface' }],
+//         description: `
+// MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild (CVPR2024 Oral)`,
+//         fullDescription: `
+//         <h4>Description</h4>
+//         <p>
+// MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild (CVPR2024 Oral)</p>
 
-        <h4>Features</h4>
-        <p>Reconstruction of Multiple People from Monocular Video in the Wild</p>
+//         <h4>Features</h4>
+//         <p>Reconstruction of Multiple People from Monocular Video in the Wild</p>
 
-        <h4>Development Stack & Skills</h4>
-        <p>Python, Cuda</p>
-    `
-    }
+//         <h4>Development Stack & Skills</h4>
+//         <p>Python, Cuda</p>
+//     `
+//     }
 };
 
 // Function to get URL parameters

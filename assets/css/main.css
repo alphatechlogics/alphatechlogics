@@ -31,7 +31,7 @@
 .hero .container {
   height: 100vh;
   /* Full screen height */
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,7 +541,7 @@ h6 {
     display: block;
   }
 
-  .clients .container .swiper-wrapper .swiper-slide img{
+  .clients .container .swiper-wrapper .swiper-slide img {
     max-width: 60%;
     max-height: 60%;
   }
@@ -1847,7 +1847,7 @@ section,
     padding-left: 30px;
     padding-right: 30px;
   }
-  
+
   .cards-1 .card {
     width: 300px;
     min-height: 520px;
@@ -1859,34 +1859,34 @@ section,
   .cards-1 {
     padding: 60px 0;
   }
-  
+
   .cards-1 .container {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
   .cards-1 .h2-heading {
     font-size: 2rem;
     margin-bottom: 3rem;
   }
-  
+
   .cards-1 .row:last-child .col-lg-12 {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  
+
   .cards-1 .card {
     width: 100%;
     max-width: 400px;
     min-height: 500px;
     padding: 80px 30px;
   }
-  
+
   .cards-1 .testimonial-text {
     font-size: 1rem;
   }
-  
+
   .cards-1 .details img {
     width: 100px;
     height: 100px;
@@ -1898,21 +1898,21 @@ section,
     padding-left: 15px;
     padding-right: 15px;
   }
-  
+
   .cards-1 .h2-heading {
     font-size: 1.75rem;
   }
-  
+
   .cards-1 .card {
     max-width: 100%;
     padding: 70px 25px;
   }
-  
+
   .cards-1 .details img {
     width: 90px;
     height: 90px;
   }
-  
+
   .cards-1 .testimonial-author {
     font-size: 1.1rem;
   }
@@ -2155,14 +2155,14 @@ section,
   font-size: 38px;
   line-height: 0;
   color: var(--accent-color);
-  
+
 }
 
-.contact  h3 {
+.contact h3 {
   font-size: 20px;
   font-weight: 700;
   margin: 20px 0 10px 0;
-  
+
 }
 
 .contact .info-item p {
@@ -3050,8 +3050,8 @@ section,
 }
 
 
- /* Add your existing button styles here */
- .button {
+/* Add your existing button styles here */
+.button {
   padding: 10px 20px;
   font-size: 16px;
   color: white;
